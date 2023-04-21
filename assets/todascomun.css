@@ -1,0 +1,56 @@
+.header{
+    background-image: url('/assets/img/banner_supermario.jpg');
+    background-size:cover;
+    background-position:center;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 1rem;
+}
+.header img{
+    width: 150px;
+    height: 150px;
+}
+.header h1{
+    font-size: 3rem;
+    font-weight: 700;
+}.nav-bar{
+    background-color: yellow;
+}
+.nav-bar-list{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: end;
+    margin: 0;
+}
+.nav-bar-item {
+    display: flex;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-right: 10px;
+    border: solid 1px black;
+    padding: 15px;
+    border-radius: 20px;
+    background-color: red;
+    font-size: 1.5rem;
+}
+.nav-bar-item a{
+    text-align: center;
+    width: 13rem;
+    text-decoration: none;
+    color: #fff;
+}
+.nav-bar-item:hover{
+    color: yellow;
+    transition: 1s;
+    rotate: 25deg;
+    transform: scale(1.4);
+    background-color: darkgreen;
+
+}
+.active{
+    background-color: black;
+    color: #fff;
+}
