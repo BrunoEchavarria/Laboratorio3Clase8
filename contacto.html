@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="stylesheet" href="	https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="website icon" type="png" href="assets/img/MarioIco.png">
+    <link rel="stylesheet" href="assets/style.css">
+    <link rel="stylesheet" href="assets/contacto.css">
+    <link rel="stylesheet" href="assets/todascomun.css">
+    <title>Informacion | Super Mario</title>
+</head>
+<body>
+    <header class="header">
+        <a href="index.html">
+            <img src="assets/img/logo_mariobros.png" alt="logo mario bros">
+        </a>
+        <h1>Super Mario Bos The Movie</h1>
+    </header>
+    <nav class="nav-bar">
+        <ul class="nav-bar-list">
+        <li class="nav-bar-item "><a href="index.html">Inicio</a></li>
+        <li class="nav-bar-item "><a href="personajes.html">Personaje</a></li>
+        <li class="nav-bar-item "><a href="personajes.html">Informacion</a></li>
+        <li class="nav-bar-item active"><a href="contacto.html">Contacto</a></li>
+        </ul>
+    </nav>
+    <main>
+        <div class="container">
+            <div class="formulario">
+                <form class="formulario-1" action="./assets/data/show_data.html" method="get">
+                    <div>
+                        <label class="label-txt" for="name">Name:</label><br>
+                        <input class="color-place" type="text" placeholder="Ingrese su nombre" required type="text" id="name" name="name">
+                    </div>
+                    <div>
+                        <label class="label-txt" for="email">Email:</label><br>
+                        <input class="color-place" type="email" placeholder="myemail@email.com" required type="email" id="email" name="email">
+                    </div>
+                    <div>
+                        <label class="label-txt" for="message">Message:</label><br>
+                        <textarea class="color-place" placeholder="Hello from Argentina" name="message" id="message"></textarea>
+                    </div>
+                    <button class="boton" id="btnContact" type="submit">Submit</button>
+                </form>
+            </div>
+        </div>
+    </main>
+</body>
+</html>

@@ -1,0 +1,54 @@
+#name{
+    width: 334px;
+    padding: 10px;
+    border: solid red 1px;
+    border-radius: 10px;
+    margin-bottom: 1rem;
+    background-color: transparent;
+}
+.label-txt{
+    color: #fff;
+}
+.color-place::placeholder{
+    color: #fff;
+    opacity: 0.8;
+}
+#email{
+    width: 334px;
+    padding: 10px;
+    border: solid red 1px;
+    border-radius: 10px;
+    margin-bottom: 1rem;
+    background-color: transparent;
+}
+
+#message{
+    width: 334px;
+    height: 150px;
+    padding: 10px;
+    border: solid red 1px;
+    border-radius: 10px;
+    margin-bottom: 1rem;
+    background-color: transparent;
+}
+
+.boton{
+    border: solid red 1px;
+    border-radius: 10px;
+    padding: 1rem;
+    background-color: transparent;
+    color: #fff;
+}
+.formulario-1{
+    background-color: black;
+    border-radius: 10px;
+    border: solid red 1px;
+    padding: 2rem;
+    width: 400px;
+}
+.formulario{
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+
+}

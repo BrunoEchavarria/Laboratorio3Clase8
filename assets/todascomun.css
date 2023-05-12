@@ -54,3 +54,10 @@
     background-color: black;
     color: #fff;
 }
+
+@media screen and (max-width: 480px){
+    .nav-bar-list{
+        display: flex;
+        justify-content: center;
+    }
+}
